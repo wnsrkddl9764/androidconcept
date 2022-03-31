@@ -24,7 +24,7 @@ fun sum7s(): Int {
     }
     return sum
 }
-//sum7s()
+sum7s()
 
 // 4번
 fun increaseOne(numberUnder100: Int) {
@@ -128,9 +128,9 @@ fun splitNumbers(firstIntList: List<Int>, secondIntList: List<Int>): Map<String,
     result.put("홀수", oddNumber)
     return result
 }
-println(
-    splitNumbers(
-        listOf<Int>(1, 2, 3, 4, 5),
-        listOf<Int>(6, 7, 8, 9, 10)
-    )
-)
+//println(
+//    splitNumbers(
+//        listOf<Int>(1, 2, 3, 4, 5),
+//        listOf<Int>(6, 7, 8, 9, 10)
+//    )
+//)

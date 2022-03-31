@@ -49,14 +49,14 @@ when (number4) {
     else -> println("모르겠습니다")
 }
 
-when (number4) {
-    4 -> println("number is 4")
-    "안녕하세요" -> println("hello")
-    is Boolean -> println("boolean")
-}
+//when (number4) {
+//    4 -> println("number is 4")
+//    "안녕하세요" -> println("hello")
+//    is Boolean -> println("boolean")
+//}
 
-when (number4){
-    in 1..10->println("number is in 1..10") // number4 in 1..10 -> Boolean
-    in 20..30->println("number is in 20..30")
-    in 40..60->println("number is in 40..60")
+when (number4) {
+    in 1..10 -> println("number is in 1..10") // number4 in 1..10 -> Boolean
+    in 20..30 -> println("number is in 20..30")
+    in 40..60 -> println("number is in 40..60")
 }
